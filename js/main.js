@@ -125,13 +125,14 @@ $(".clearBtn").click(function(){
     }
 })
 
+var header = document.querySelector("header")
 var icon = document.querySelector(".icon")
 $(".icon").click(function(){
     $("body").toggleClass("light")
 
     if($("body").hasClass("light")){
         $(".icon").attr("src","todo-app-main/images/icon-sun.svg")
-        $(header).css("background-image"," url(todo-app-main/images/bg-desktop-light.jpg)")
+        header.style.backgroundImage = url(todo-app-main/images/bg-desktop-light.jpg);
     }else{
         $(".icon").attr("src","todo-app-main/images/icon-moon.svg")
     }
