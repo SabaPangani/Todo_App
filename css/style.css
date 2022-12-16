@@ -10,10 +10,6 @@
 body.light{
     background-color: hsl(236, 33%, 92%) !important;
 }
-body.light header{
-    background-image: url(/todo-app-main/images/bg-mobile-light.jpg) !important;
-    background-position: center;
-}
 body.light .todoHeader{
     background-color: white !important;
     color: #25273D;
