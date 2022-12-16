@@ -136,5 +136,6 @@ $(".icon").click(function(){
         header.style.backgroundImage = "url(todo-app-main/images/bg-desktop-light.jpg)";
     }else{
         $(".icon").attr("src","todo-app-main/images/icon-moon.svg")
+        header.style.backgroundImage = "url(todo-app-main/images/bg-desktop-dark.jpg)";
     }
 })
