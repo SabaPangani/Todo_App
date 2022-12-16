@@ -1,5 +1,5 @@
 
-<h1 align="center">Todo Application</h1>
+<h1 align="center">Todo Application (needs a little touch)</h1>
 
 <div align="center">
   <h3>
