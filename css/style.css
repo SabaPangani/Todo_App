@@ -1,20 +1,17 @@
-@font-face {
-    font-family: josefin;
-    src: url(fonts/static/JosefinSans-Regular.ttf);
-}
 
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     transition: .3s;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-body{
-    font-family: josefin;
-}
 body.light{
     background-color: hsl(236, 33%, 92%) !important;
 }
 body.light header{
-    background-image: url(todo-app-main/images/bg-desktop-light.jpg) !important;
+    background-image: url(/todo-app-main/images/bg-desktop-light.jpg) !important;
     background-position: center;
 }
 body.light .todoHeader{
@@ -51,6 +48,10 @@ body.light .todo-filters span:hover{
 body.light .statusMobile span:hover{
     color:#25273D ;
 
+}
+body.light .statusMobile{
+    background-color: white;
+    color:hsl(236, 9%, 61%) !important;
 }
 
 body.light .active{
@@ -130,7 +131,6 @@ body.light .active{
     background:transparent;
 }
 .todoHeader input{
-    font-family: josefin;
     font-size: 1.1rem;
     background-color: transparent;
     border: none;
@@ -262,9 +262,9 @@ body.light .active{
     }
 
     header{
-        background-image: url(todo-app-main/images/bg-mobile-dark.jpg) !important;
+        background-image: url(/todo-app-main/images/bg-mobile-dark.jpg) !important;
     }
     body .light header{
-        background-image: url(todo-app-main/images/bg-mobile-dark.jpg) !important;
+        background-image: url(/todo-app-main/images/bg-mobile-dark.jpg) !important;
     }
 }
