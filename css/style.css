@@ -1,0 +1,270 @@
+@font-face {
+    font-family: josefin;
+    src: url(/fonts/static/JosefinSans-Regular.ttf);
+}
+
+*{
+    transition: .3s;
+}
+
+body{
+    font-family: josefin;
+}
+body.light{
+    background-color: hsl(236, 33%, 92%) !important;
+}
+body.light header{
+    background-image: url(/todo-app-main/images/bg-desktop-light.jpg) !important;
+    background-position: center;
+}
+body.light .todoHeader{
+    background-color: white !important;
+    color: #25273D;
+}
+body.light .todoHeader input{
+    color: #25273D;
+}
+body.light .todoHeader .todo-circle{
+    border: 1px solid hsl(233, 11%, 84%) !important;
+}
+body.light .list .circle::after{
+   background-color: white !important;
+}
+body.light .list .circle{
+    background-color: white !important;
+    border: 1px solid hsl(233, 11%, 84%) !important;
+ }
+body.light .list{
+    background-color: white !important;
+    border-bottom: 1px solid hsl(233, 11%, 84%);
+    color: #25273D;
+}
+
+body.light .todo-filters{
+    background-color: white !important;
+    border-bottom: 1px solid hsl(233, 11%, 84%);
+    color: hsl(236, 9%, 61%) !important;
+}
+body.light .todo-filters span:hover{
+    color:#25273D !important;
+}
+body.light .statusMobile span:hover{
+    color:#25273D ;
+
+}
+
+body.light .active{
+    scale: 1 !important;
+    background:linear-gradient(to right,hsl(192, 100%, 67%) , hsl(280, 87%, 65%)) !important;
+    padding: .44rem .38rem;
+    border-radius: 50%;
+}
+
+
+.container{
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+    bottom: 400px;
+}
+
+.todo{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+.logo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.logo .title{
+    font-size: 2.3rem;
+    color: white;
+    letter-spacing: 30px;
+}
+.logo .icon{
+    width: 40px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.todoHeader{
+    width: 100%;
+    height: 60px;
+    padding: .3rem 2rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: #25273D;
+    border: 1px solid #393A4B;
+    border-radius: 7px;
+    column-gap: 20px;
+}
+.list{
+    width: 100%;
+    background-color: hsl(235, 24%, 19%);
+    height: 60px;
+    font-size: 1rem;
+    color: hsl(233, 11%, 84%);
+    border-bottom: 1px solid hsl(233, 18%, 38%);
+    display: flex;
+    justify-content: start;
+    padding: .3rem 2rem;
+    box-sizing: border-box;
+}
+.todoHeader .todo-circle{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    border: 1px solid #e3e4f196 !important;
+    background:transparent;
+}
+.todoHeader input{
+    font-family: josefin;
+    font-size: 1.1rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.todoList{
+    width: 100%;
+}
+.list .circle{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background:#e3e4f1bb !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+}
+.list .circle::after{
+    content: '';
+    position: absolute;
+    width: 91%;
+    height: 91%;
+    border-radius: 50%;
+    background-color: #25273D;
+}
+
+.list .circle:hover{
+    background:linear-gradient(to right,hsl(192, 100%, 67%) , hsl(280, 87%, 65%));
+}
+.list .circle img{
+    scale: 0;
+    z-index:100;
+}
+.list:hover{
+    scale: 1.01;
+}
+.active{
+    scale: 1 !important;
+    background:linear-gradient(to right,hsl(192, 100%, 67%) , hsl(280, 87%, 65%)) !important;
+    padding: .42rem .35rem;
+    border-radius: 50%;
+}
+.body .list{
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    color: rgba(255, 255, 255, 0.753);
+    border-bottom: 1px solid #ffffff10;
+}
+.body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+}
+.todo-filters{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.3rem 2.1rem;
+    color:#e3e4f147;
+    box-sizing: border-box;
+    background-color: #25273D;
+    border-radius: 0 0 7px 7px;
+    font-size: .88rem;
+}
+.todo-filters .status{
+    display: flex;
+    column-gap: 10px;
+    cursor: pointer;
+}
+.todo-filters .status span:hover{
+    color: white !important;
+}
+.clear{
+    cursor: pointer;
+}
+.clear span:hover{
+    color: white;
+}
+.todo-filters:hover{
+    scale: 1.01;
+}
+.closeBtn{
+    position: absolute;
+    right: 32px;
+    scale: 0;
+    transition: .3s;
+}
+.list:hover .closeBtn{
+    scale: 1;
+    cursor: pointer;
+}
+
+.statusMobile{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 50px;
+    padding: 1.3rem 2.1rem;
+    color:#e3e4f147;
+    box-sizing: border-box;
+    background-color: #25273D;
+    border-radius:7px;
+    font-size: .88rem;
+    margin-top: 20px;
+    display: none;
+}
+
+.lightMode{
+    background-color: white !important;
+    color: hsl(235, 19%, 35%) !important;
+}
+@media only screen and (max-width: 538px) {
+    .todo-filters .status{
+        display: none;
+    }
+    .statusMobile{
+        display: flex;
+    }
+
+    header{
+        background-image: url(/todo-app-main/images/bg-mobile-dark.jpg) !important;
+    }
+    body .light header{
+        background-image: url(/todo-app-main/images/bg-mobile-dark.jpg) !important;
+    }
+}
