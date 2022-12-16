@@ -3,11 +3,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://sabapangani.github.io/" color="white">
+    <a href="https://sabapangani.github.io/Todo_App/" color="white">
       Live
     </a>
    <span> | </span>
-    <a href="https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef">
+    <a href="https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW">
       Challenge
     </a>
   </h3>
