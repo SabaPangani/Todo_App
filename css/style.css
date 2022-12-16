@@ -1,6 +1,6 @@
 @font-face {
     font-family: josefin;
-    src: url(/fonts/static/JosefinSans-Regular.ttf);
+    src: url(fonts/static/JosefinSans-Regular.ttf);
 }
 
 *{
@@ -14,7 +14,7 @@ body.light{
     background-color: hsl(236, 33%, 92%) !important;
 }
 body.light header{
-    background-image: url(/todo-app-main/images/bg-desktop-light.jpg) !important;
+    background-image: url(todo-app-main/images/bg-desktop-light.jpg) !important;
     background-position: center;
 }
 body.light .todoHeader{
@@ -262,9 +262,9 @@ body.light .active{
     }
 
     header{
-        background-image: url(/todo-app-main/images/bg-mobile-dark.jpg) !important;
+        background-image: url(todo-app-main/images/bg-mobile-dark.jpg) !important;
     }
     body .light header{
-        background-image: url(/todo-app-main/images/bg-mobile-dark.jpg) !important;
+        background-image: url(todo-app-main/images/bg-mobile-dark.jpg) !important;
     }
 }
