@@ -1,5 +1,3 @@
-<img src="https://github.com/catherineisonline/sunnyside-agency-landing-page-frontendmentor/blob/main/images/project-preview.png?raw=true"></img>
-
 
 <h1 align="center">Todo Application</h1>
 
