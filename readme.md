@@ -1,7 +1,7 @@
 <img src="https://github.com/catherineisonline/sunnyside-agency-landing-page-frontendmentor/blob/main/images/project-preview.png?raw=true"></img>
 
 
-<h1 align="center">Sunnyside Agency Landing Page</h1>
+<h1 align="center">Todo Application</h1>
 
 <div align="center">
   <h3>
@@ -20,11 +20,6 @@
 <br>
 <br>
 <br>
-
-## About The Project
-This challenge will be a perfect test of your layout and responsive skills. There's a tiny bit of JS for the mobile menu, but the focus is HTML & CSS.
-The challenge is to build out this landing page and get it looking as close to the design as possible.
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
 <br><br>Users should be able to:
 <br>
