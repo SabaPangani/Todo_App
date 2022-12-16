@@ -130,8 +130,8 @@ $(".icon").click(function(){
     $("body").toggleClass("light")
 
     if($("body").hasClass("light")){
-        $(".icon").attr("src","/todo-app-main/images/icon-sun.svg")
+        $(".icon").attr("src","todo-app-main/images/icon-sun.svg")
     }else{
-        $(".icon").attr("src","/todo-app-main/images/icon-moon.svg")
+        $(".icon").attr("src","todo-app-main/images/icon-moon.svg")
     }
 })
