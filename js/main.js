@@ -131,7 +131,7 @@ $(".icon").click(function(){
 
     if($("body").hasClass("light")){
         $(".icon").attr("src","todo-app-main/images/icon-sun.svg")
-        $(header).style.backgroundImage = url(todo-app-main/images/bg-desktop-light.jpg);
+        $(header).css("background-image"," url(todo-app-main/images/bg-desktop-light.jpg)")
     }else{
         $(".icon").attr("src","todo-app-main/images/icon-moon.svg")
     }
