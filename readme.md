@@ -1,6 +1,5 @@
 
-![Screenshot_2](https://user-images.githubusercontent.com/77338263/208237587-cbbcf931-bc1d-4416-aa0b-c5426a815a7d.png)
-
+https://res.cloudinary.com/dz209s6jk/image/upload/v1606414078/Challenges/vjbu8raudheodagmjfz2.jpg
 
 <h1 align="center">Todo Application (needs a little touch)</h1>
 
