@@ -1,4 +1,7 @@
 
+![Screenshot_2](https://user-images.githubusercontent.com/77338263/208237587-cbbcf931-bc1d-4416-aa0b-c5426a815a7d.png)
+
+
 <h1 align="center">Todo Application (needs a little touch)</h1>
 
 <div align="center">
