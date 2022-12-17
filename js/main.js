@@ -20,12 +20,12 @@ $(".todoInput").keydown(function(ev){
     circle.classList.add("circle")
     var circleImg = document.createElement("img")
     circleImg.classList.add("check")
-    circleImg.setAttribute("src","/todo-app-main/images/icon-check.svg")
+    circleImg.setAttribute("src","todo-app-main/images/icon-check.svg")
     var todoTxt  = document.createElement("p")
     todoTxt.classList.add("text")
     todoTxt.textContent = todoInput.value
     var closeBtn = document.createElement("img")
-    closeBtn.setAttribute("src","/todo-app-main/images/icon-cross.svg")
+    closeBtn.setAttribute("src","todo-app-main/images/icon-cross.svg")
     closeBtn.classList.add("closeBtn")
     closeBtn.addEventListener("click",function(){
         this.parentElement.remove()
