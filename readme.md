@@ -16,7 +16,7 @@
   </h3>
 </div>
 <div align="center">
-   Solution for a challenge from  <a href="https://www.frontendmentor.io/home" target="_blank">frontendmentor.io</a>.
+   Solution for a challenge from  <a href="https://www.frontendmentor.io/solutions/todo-app-cxJCmoEnY5" target="_blank">frontendmentor.io</a>.
 </div>
 <br>
 <br>
