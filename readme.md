@@ -46,7 +46,7 @@
 - CSS custom properties
 - Flex
 - JavaScript
-- Sass/Scss
+- SASS/SCSS
 
 
 
